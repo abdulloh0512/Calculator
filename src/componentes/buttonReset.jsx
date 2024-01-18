@@ -9,4 +9,3 @@ const ButtonReset = (props) => (
 
 export default ButtonReset;
 
-//** linea 5, atributo onClick para asignar la función "manejarClear"enviada como un props**/

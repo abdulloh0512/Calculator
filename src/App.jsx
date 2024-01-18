@@ -3,8 +3,7 @@ import { useState } from 'react';
 import Button from './componentes/button';
 import Input from './componentes/input';
 import ButtonReset from './componentes/buttonReset';
-import { evaluate } from 'mathjs'; //*importamos la libreria mathjs para evaluar el input
-
+import { evaluate } from 'mathjs'; 
 function App() {
 
   const [input, setInput] = useState('');
@@ -65,6 +64,5 @@ function App() {
 
 export default App
 
-/** linea 57 , método función flecha utilizado para limpiar el input. 
-    linea 20, función "evaluate" del paquete mathjs, importado en linea 6, instalado desde la terminal
-    (npm install mathjs)**/
+
+   
